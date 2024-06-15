@@ -1,6 +1,6 @@
 {
   "rewrites": [
     {"source": "/docs/", "destination": "https://sketchware-pro-docs.vercel.app/"},
-    {"source": "/", "destination": "https://swpro.vercel.com/"},
+    {"source": "/", "destination": "https://swpro.vercel.com/"}
   ]
 }
