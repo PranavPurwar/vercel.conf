@@ -1,4 +1,15 @@
 {
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000, immutable"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {"source": "/docs/", "destination": "https://sketchware-pro-docs.vercel.app/"},
     {"source": "/", "destination": "https://swpro.vercel.com/"}
